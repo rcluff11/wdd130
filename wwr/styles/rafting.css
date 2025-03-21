@@ -7,6 +7,10 @@
 
 }
 
+title {
+    top: auto;
+    position: relative;
+}
 
 h1, h2 {
     color: var(--Secondary-color);
@@ -59,6 +63,7 @@ nav a {
 }
 
 .hero h1 {
+   background-color: rgba(57, 56, 55, 0.7);
     position: absolute;
     top: 0%; 
     left: 50%;
