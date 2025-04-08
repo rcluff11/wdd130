@@ -11,7 +11,6 @@ header {
     display: grid;
     grid-template-columns: 260px 1fr;
     align-items: center;
-    background-color: var(--Secondary-color);
     padding: 10px 20px;
 }
 
@@ -21,7 +20,7 @@ header img {
 }
 
 nav a {
-    color: var(--Primary-color);
+    color: var(--Secondary-color);
     text-decoration: none;
     margin: 0 15px;
     font-family: 'Lora', serif;
