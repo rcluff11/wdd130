@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us - White Water Rafting</title>
+        <meta name="author" content="Riley Cluff">
+        <meta name="description" content="Get in touch with White Water Rafting. We're here to assist with any inquiries or bookings. Contact us for more information.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Lora&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/contact.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/wwr.webp" alt="logo" width="200">
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="hero">
+                <img src="images/contact-hero.webp" alt="Contact Us for your White Water Rafting adventure!">
+                <h1>Contact Us - White Water Rafting</h1>
+            </div>
+            <section class="contact-info">
+                <h2>Company Information</h2>
+                <address>
+                    <p><strong>Address:</strong> 123 Rafting St, Adventure Town, RA 12345</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@wwrafting.com">info@wwrafting.com</a></p>
+                </address>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4732.899870695632!2d-116.73185892151132!3d45.14256305583418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6a390d3de05e5%3A0x105ba51021f82762!2sSnake%20River!5e0!3m2!1sen!2sus!4v1744137970799!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="employees">
+                <h2>Meet Our Team</h2>
+                <div class="employee">
+                    <img src="images/employee1.webp" alt="Employee 1" width="150">
+                    <p><strong>John Doe</strong><br>Lead Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.webp" alt="Employee 2" width="150">
+                    <p><strong>Jane Smith</strong><br>Customer Relations</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.webp" alt="Employee 3" width="150">
+                    <p><strong>Jim Brown</strong><br>Safety Coordinator</p>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="purpose">Purpose of Your Message:</label>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>©️2025, White Water Rafting, Riley Cluff</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.webp" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.webp" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.webp" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
