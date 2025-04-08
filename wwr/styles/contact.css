@@ -48,18 +48,14 @@ main {
     margin-bottom: 2rem;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 .hero h1 {
     background-color: rgba(57, 56, 55, 0.7);
     position: absolute;
     top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -90%);
     color: rgba(248, 245, 245, 0.774);
     font-size: 3rem;
     font-weight: bold;
