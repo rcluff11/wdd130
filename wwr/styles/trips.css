@@ -1,0 +1,171 @@
+header {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav a {
+    color: var(--Secondary-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'Lora', serif;
+}
+
+nav a:hover {
+    color: var(--Accent1-color);
+}
+  
+  
+  
+.call-to-action {
+    background-color: #00376b;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 0;
+  }
+  
+  .call-to-action h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .call-to-action p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .call-to-action .btn {
+    background-color: #c1440e;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .call-to-action .btn:hover {
+    background-color: #a2360b;
+  }
+  
+  .trip-descriptions {
+    margin: 2rem 0;
+  }
+  
+  .trip-descriptions h2 {
+    font-size: 2rem;
+    color: #00376b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .trip-descriptions .trip {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+  }
+  
+  .trip:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trip img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .trip > div {
+    padding: 1rem;
+  }
+  
+  .trip h3 {
+    font-size: 1.4rem;
+    color: #c1440e;
+    margin-top: 0;
+  }
+  
+  .trip-table {
+    margin: 3rem 0;
+  }
+  
+  .trip-table h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #00376b;
+    margin-bottom: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+  }
+  
+  thead {
+    background-color: #00376b;
+    color: white;
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f8ff;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer .social {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  footer .social img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    .trip-descriptions .trip {
+      flex-direction: row;
+    }
+  
+    .trip img {
+      width: 40%;
+      max-height: 250px;
+    }
+  
+    .trip > div {
+      width: 60%;
+    }
+  }
+  

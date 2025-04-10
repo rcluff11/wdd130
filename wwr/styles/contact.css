@@ -175,24 +175,26 @@ footer {
     color: var(--Secondary-color)
 }
 
-footer p {
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  footer p {
     margin: 0;
-    font-size: 14px;
-}
+  }
+  
+  footer .sociallinks {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  footer .sociallinks img {
+    width: 32px;
+    height: 32px;
+  }
 
-footer img {
-    width: 30px;
-    margin-top: 10px;
-}
-
-.sociallinks a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-.sociallinks a img {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border-radius: 50%;
-}

@@ -11,23 +11,23 @@ body {
     grid-template-columns: 260px 1fr;
     align-items: center;
     padding: 10px 20px;
-}
-
-header img {
+  }
+  
+  header img {
     max-width: 100%;
     height: auto;
-}
-
-nav a {
-    color: var(--Secondary-color);
+  }
+  
+  nav a {
+    color: #00376b;
     text-decoration: none;
     margin: 0 15px;
     font-family: 'Lora', serif;
-}
-
-nav a:hover {
-    color: var(--Accent1-color);
-}
+  }
+  
+  nav a:hover {
+    color: #c1440e;
+  }
   
   .hero {
     position: relative;
@@ -35,7 +35,7 @@ nav a:hover {
     color: white;
   }
   
-  .hero img {
+  .hero-img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -44,9 +44,9 @@ nav a:hover {
   
   .hero h1 {
     position: absolute;
-    top: -210%;
+    top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -300%);
     font-size: 2.5rem;
     background: rgba(0, 0, 0, 0.4);
     padding: 1rem 2rem;
@@ -66,7 +66,7 @@ nav a:hover {
     text-align: left;
   }
   
-  .hero-text img {
+  .hero-inline-img {
     width: 120px;
     float: right;
     margin-left: 1rem;
@@ -75,6 +75,41 @@ nav a:hover {
   
   .container {
     padding: 2rem;
+  }
+  
+  .newsletter {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter h2 {
+    font-family: 'Lora', serif;
+    color: #00376b;
+  }
+  
+  .newsletter form {
+    display: grid;
+    gap: 1rem;
+    max-width: 400px;
+  }
+  
+  .newsletter input, .newsletter button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .newsletter button {
+    background-color: #00376b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #c1440e;
   }
   
   .history {
@@ -111,22 +146,10 @@ nav a:hover {
     gap: 1rem;
   }
   
-  .adventure-gallery figure {
-    margin: 0;
-    text-align: center;
-  }
-  
   .adventure-gallery img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-  }
-  
-  .adventure-gallery {
-    margin-top: 0.5rem;
-    font-size: 0.95rem;
-    font-style: italic;
-    color: #555;
   }
   
   footer {
@@ -142,13 +165,12 @@ nav a:hover {
     margin: 0;
   }
   
-  footer .sociallinks {
+  .sociallinks {
     display: flex;
     gap: 0.5rem;
   }
   
-  footer .sociallinks img {
+  .sociallinks img {
     width: 32px;
     height: 32px;
   }
-  
